@@ -1,7 +1,7 @@
 [
   {
-    "repository": "device_kernel_lge_g3",
-    "target_path": "device/kernel/lge/g3"
+    "repository": "kernel_lge_g3",
+    "target_path": "kernel/lge/g3"
   },
   {
     "repository": "android_device_qcom_common",
