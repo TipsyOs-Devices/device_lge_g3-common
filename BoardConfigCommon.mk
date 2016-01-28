@@ -46,13 +46,10 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x0008000 --ramdisk_offset 0x2000000
 TARGET_KERNEL_SOURCE := kernel/lge/g3
-<<<<<<< HEAD
-=======
 
 ifeq ($(filter d852, $(TARGET_DEVICE)),)
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 endif
->>>>>>> e56ec3c... g3: Cleanup BoardConfigCommon/g3/system_prop
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
