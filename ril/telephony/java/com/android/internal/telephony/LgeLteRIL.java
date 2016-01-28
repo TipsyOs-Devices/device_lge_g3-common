@@ -19,8 +19,6 @@ package com.android.internal.telephony;
 import static com.android.internal.telephony.RILConstants.*;
 
 import android.content.Context;
-import android.os.AsyncResult;
-import android.os.Message;
 import android.os.Parcel;
 
 /**
@@ -56,6 +54,7 @@ public class LgeLteRIL extends RIL implements CommandsInterface {
         }
         return failCause;
     }
+<<<<<<< HEAD
 
     @Override
     public void getRadioCapability(Message response) {
@@ -66,4 +65,6 @@ public class LgeLteRIL extends RIL implements CommandsInterface {
             response.sendToTarget();
         }
     }
+=======
+>>>>>>> parent of 32cca4c... Revert "ril: Fix invalid number error"
 }
