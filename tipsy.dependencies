@@ -1,0 +1,14 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "TipsyOS-Devices/kernel_lge_g3",
+    "target_path": "kernel/lge/g3",
+    "branch":      "6.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "CyanogenMod/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch":      "cm-13.0"
+  }
+]
