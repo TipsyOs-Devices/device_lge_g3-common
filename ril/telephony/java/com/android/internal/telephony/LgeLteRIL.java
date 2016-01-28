@@ -54,17 +54,4 @@ public class LgeLteRIL extends RIL implements CommandsInterface {
         }
         return failCause;
     }
-<<<<<<< HEAD
-
-    @Override
-    public void getRadioCapability(Message response) {
-        riljLog("getRadioCapability: returning static radio capability");
-        if (response != null) {
-            Object ret = makeStaticRadioCapability();
-            AsyncResult.forMessage(response, ret, null);
-            response.sendToTarget();
-        }
-    }
-=======
->>>>>>> parent of 32cca4c... Revert "ril: Fix invalid number error"
 }
